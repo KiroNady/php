@@ -18,11 +18,13 @@ function mytest() {
     echo "y = $GLOBALS[y] inside ";
 
 }
-
+ 
 echo "$x outside \n ";
 echo "y = $y before \n";
 mytest();
 
 echo "y = $y after \n";
+
+var_dump($x);
 ?>
 
